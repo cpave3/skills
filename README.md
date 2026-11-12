@@ -12,12 +12,12 @@ npx -y skills install cpave3/skills/<skill-name>
 
 | Skill | Description |
 |---|---|
-| `evalite` | Write and run LLM evaluations using the evalite TypeScript library |
-| `create-skill` | Create new skills, modify and improve existing skills, and measure skill performance |
+| `clean-ui` | Rules for clean UI, applied when building, changing, or reviewing any user interface |
+| `lens-review` | Code review that runs each lens (correctness, security, architecture, consistency, tests and docs, scope) in its own subagent, then verifies and merges the findings into one report |
 
 ## Examples
 
 ```bash
-npx -y skills install cpave3/skills/evalite
-npx -y skills install cpave3/skills/create-skill
+npx -y skills install cpave3/skills/clean-ui
+npx -y skills install cpave3/skills/lens-review
 ```
